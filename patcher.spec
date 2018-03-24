@@ -1,6 +1,6 @@
 Name:		patcher
 Version:	0.6
-Release:	13
+Release:	14
 License:	GPLv2+
 Group:		Development/Other
 Summary:	Quick creation of patches against a project source tree
