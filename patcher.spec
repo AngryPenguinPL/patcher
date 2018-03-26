@@ -12,6 +12,7 @@ Url:		http://labix.org/patcher
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	pkgconfig(python2)
 BuildArch:	noarch 
+Requires:	python2
 %description
 Patcher is a tool for quick creation of patches against a project source tree. 
 Patcher functionality resembles a lightweight version control system.
