@@ -10,7 +10,7 @@ Source0:	http://labix.org/download/patcher/%{name}-%{version}.tar.bz2
 Patch0:		patcher-0.6-python26.patch
 Url:		http://labix.org/patcher
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python2)
 BuildArch:	noarch 
 %description
 Patcher is a tool for quick creation of patches against a project source tree. 
