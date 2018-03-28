@@ -1,6 +1,6 @@
 Name:		patcher
 Version:	0.6
-Release:	14
+Release:	15
 License:	GPLv2+
 Group:		Development/Other
 Summary:	Quick creation of patches against a project source tree
@@ -10,7 +10,7 @@ Source0:	http://labix.org/download/patcher/%{name}-%{version}.tar.bz2
 Patch0:		patcher-0.6-python26.patch
 Url:		http://labix.org/patcher
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	pkgconfig(python2)
+BuildRequires:	pkgconfig(python2) >= 2.7
 BuildArch:	noarch 
 Requires:	python2
 %description
