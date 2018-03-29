@@ -10,8 +10,7 @@ Source0:	http://labix.org/download/patcher/%{name}-%{version}.tar.bz2
 Patch0:		patcher-0.6-python26.patch
 Url:		http://labix.org/patcher
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: python2-devel
-#BuildRequires:	pkgconfig(python2) >= 2.7
+BuildRequires: python2-devel >= 2.6
 BuildArch:	noarch 
 Requires:	python2
 %description
